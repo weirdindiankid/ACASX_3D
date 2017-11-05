@@ -128,9 +128,9 @@ public class MDPVI
 	
 		try 
         {
-            indexFileWriter = new FileWriter("./src/acasx3d/generation/generatedFiles/indexFile",false);
-            costFileWriter = new FileWriter("./src/acasx3d/generation/generatedFiles/costFile",false);
-            actionFileWriter = new FileWriter("./src/acasx3d/generation/generatedFiles/actionFile",false);
+            indexFileWriter = new FileWriter("/Users/dharmesh/IdeaProjects/ACASX_3D/src/production/ACASX_3D/acasx3d/generation/indexFile",false);
+            costFileWriter = new FileWriter("/Users/dharmesh/IdeaProjects/ACASX_3D/src/production/ACASX_3D/acasx3d/generation/costFile",false);
+            actionFileWriter = new FileWriter("/Users/dharmesh/IdeaProjects/ACASX_3D/src/production/ACASX_3D/acasx3d/generation/actionFile",false);
       
             int index=0;
             for (int i=0; i<numCStates;i++)//T=k=0

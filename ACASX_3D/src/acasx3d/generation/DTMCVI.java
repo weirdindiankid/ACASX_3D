@@ -86,7 +86,7 @@ public class DTMCVI
 		FileWriter entryTimeDistributionFileWriter = null;	
 		try 
         {
-            entryTimeDistributionFileWriter = new FileWriter("./src/acasx3d/generation/generatedFiles/"+entryTimeDistributionFileName,false);
+            entryTimeDistributionFileWriter = new FileWriter("/Users/dharmesh/IdeaProjects/ACASX_3D/src/production/ACASX_3D/acasx3d/generation/"+entryTimeDistributionFileName,false);
 
             for(int k=0; k<=T;k++ )
             {
